@@ -36,8 +36,9 @@ console.log(typeof {});
 console.log('is Infinity: ', Number.isFinite(Infinity) ); //бесконечность - isFinite (оно конечно?) 
 
 
-//immutability - иммутабельный тип данных
-//если есть объект - 
+// immutability - иммутабельный тип данных
+// работа на копиях данных, чтобы оригинал оставался неизменным
+// если есть объект - 
 // 1) создать копию, 
 // 2) вносим изменения в копию
 // 3) используем копию
@@ -46,10 +47,8 @@ const copyUser = {...user1} //sprad operator - распределяющий оп
 console.log(copyUser);
 console.log(copyUser === user1); //false
 
-
 const array = [1, 2, 3, 4, 5]
 console.log([...array, 6]);
-
 
 
 //глубокое копирование
