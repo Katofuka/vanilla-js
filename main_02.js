@@ -1,4 +1,4 @@
-const students = [
+export const students = [
     {
         name: 'Bob',
         age: 22,
