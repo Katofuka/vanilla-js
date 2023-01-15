@@ -81,7 +81,6 @@ console.log(students.sort((a, b) => {
 }
 ));
 
-
 const nums = [23, 24, 1, 56, 67, 12, 3, 24, 1, 56, 67, 12,] //по возрастанию
 
 for (let i = 0; i < nums.length-1; i++) {
