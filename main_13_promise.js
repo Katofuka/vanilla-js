@@ -36,8 +36,7 @@ let pr = new Promise((resolve, reject) => {
 // .then((val) => console.log(val))
 
 
-const fetch = (url) => {
-    return new Promise((res, rej) => {
+const fetch = (url) => new Promise((res, rej) => {
         switch (url) {
             case 'google': {
                 setTimeout(() => {
@@ -60,7 +59,7 @@ const fetch = (url) => {
         }
     })
 
-}
+
 
 // fetch('microsoft')
 //     .then((data) => {
